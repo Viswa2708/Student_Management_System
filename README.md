@@ -68,7 +68,5 @@ For production deployment, set the following environment variables for security:
 - `ADMIN_USERNAME`: Your custom admin username
 - `ADMIN_PASSWORD`: Your strong admin password
 
----
 
-## 📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+

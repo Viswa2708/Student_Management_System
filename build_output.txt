@@ -1,0 +1,103 @@
+﻿[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< com.example:Student_Management_System >----------------
+[INFO] Building Student_Management_System 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.5.10:run (default-cli) > test-compile @ Student_Management_System >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ Student_Management_System ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ Student_Management_System ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ Student_Management_System ---
+[INFO] skip non existing resourceDirectory C:\Users\HP\OneDrive\Documents\Student_Management_System-main\Student_Management_System\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ Student_Management_System ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] <<< spring-boot:3.5.10:run (default-cli) < test-compile @ Student_Management_System <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.5.10:run (default-cli) @ Student_Management_System ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::               (v3.5.10)
+
+2026-02-21T18:32:03.964+05:30  INFO 19408 --- [Student_Management_System] [           main] c.e.S.StudentManagementSystemApplication : Starting StudentManagementSystemApplication using Java 17.0.12 with PID 19408 (C:\Users\HP\OneDrive\Documents\Student_Management_System-main\Student_Management_System\target\classes started by HP in C:\Users\HP\OneDrive\Documents\Student_Management_System-main\Student_Management_System)
+2026-02-21T18:32:03.966+05:30  INFO 19408 --- [Student_Management_System] [           main] c.e.S.StudentManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2026-02-21T18:32:04.553+05:30  INFO 19408 --- [Student_Management_System] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-21T18:32:04.632+05:30  INFO 19408 --- [Student_Management_System] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64 ms. Found 5 JPA repository interfaces.
+2026-02-21T18:32:05.168+05:30  INFO 19408 --- [Student_Management_System] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-02-21T18:32:05.176+05:30  INFO 19408 --- [Student_Management_System] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-02-21T18:32:05.176+05:30  INFO 19408 --- [Student_Management_System] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.50]
+2026-02-21T18:32:05.236+05:30  INFO 19408 --- [Student_Management_System] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-02-21T18:32:05.236+05:30  INFO 19408 --- [Student_Management_System] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1232 ms
+2026-02-21T18:32:05.440+05:30  INFO 19408 --- [Student_Management_System] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-21T18:32:05.564+05:30  INFO 19408 --- [Student_Management_System] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.41.Final
+2026-02-21T18:32:05.635+05:30  INFO 19408 --- [Student_Management_System] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-02-21T18:32:06.138+05:30  INFO 19408 --- [Student_Management_System] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-21T18:32:06.186+05:30  INFO 19408 --- [Student_Management_System] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-02-21T18:32:06.776+05:30  INFO 19408 --- [Student_Management_System] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7a0f06ad
+2026-02-21T18:32:06.776+05:30  INFO 19408 --- [Student_Management_System] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-02-21T18:32:06.862+05:30  WARN 19408 --- [Student_Management_System] [           main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-02-21T18:32:06.891+05:30  INFO 19408 --- [Student_Management_System] [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.44
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-02-21T18:32:08.265+05:30  INFO 19408 --- [Student_Management_System] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+Hibernate: create table admins (id bigint not null auto_increment, password varchar(255) not null, username varchar(255) not null, primary key (id)) engine=InnoDB
+Hibernate: create table enrollments (id bigint not null auto_increment, marks integer, student_id bigint not null, subject_id bigint not null, primary key (id)) engine=InnoDB
+Hibernate: create table students (id bigint not null auto_increment, department varchar(255) not null, email varchar(255) not null, name varchar(255) not null, year integer not null, primary key (id)) engine=InnoDB
+Hibernate: create table subjects (id bigint not null auto_increment, subject_code varchar(255) not null, subject_name varchar(255) not null, teacher_id bigint, primary key (id)) engine=InnoDB
+Hibernate: create table teachers (id bigint not null auto_increment, email varchar(255) not null, name varchar(255) not null, primary key (id)) engine=InnoDB
+Hibernate: alter table admins drop index UKmi8vkhus4xbdbqcac2jm4spvd
+Hibernate: alter table admins add constraint UKmi8vkhus4xbdbqcac2jm4spvd unique (username)
+Hibernate: alter table enrollments drop index UKtq557kjh8jhwrscfd06di474o
+Hibernate: alter table enrollments add constraint UKtq557kjh8jhwrscfd06di474o unique (student_id, subject_id)
+Hibernate: alter table students drop index UKe2rndfrsx22acpq2ty1caeuyw
+Hibernate: alter table students add constraint UKe2rndfrsx22acpq2ty1caeuyw unique (email)
+Hibernate: alter table subjects drop index UKgh4vbuxrs0doljp2lrdbida33
+Hibernate: alter table subjects add constraint UKgh4vbuxrs0doljp2lrdbida33 unique (subject_code)
+Hibernate: alter table teachers drop index UK4l9jjfvsct1dd5aufnurxcvbs
+Hibernate: alter table teachers add constraint UK4l9jjfvsct1dd5aufnurxcvbs unique (email)
+Hibernate: alter table enrollments add constraint FK8kf1u1857xgo56xbfmnif2c51 foreign key (student_id) references students (id)
+Hibernate: alter table enrollments add constraint FKnq1d261xf53vkhedgg3jf5nf4 foreign key (subject_id) references subjects (id)
+Hibernate: alter table subjects add constraint FKsjy6ghvvelraa2w9mhv3bbnys foreign key (teacher_id) references teachers (id)
+2026-02-21T18:32:09.257+05:30  INFO 19408 --- [Student_Management_System] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-21T18:32:10.190+05:30  WARN 19408 --- [Student_Management_System] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-21T18:32:10.225+05:30  INFO 19408 --- [Student_Management_System] [           main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-02-21T18:32:10.926+05:30  INFO 19408 --- [Student_Management_System] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-02-21T18:32:10.939+05:30  INFO 19408 --- [Student_Management_System] [           main] c.e.S.StudentManagementSystemApplication : Started StudentManagementSystemApplication in 7.366 seconds (process running for 7.637)
+2026-02-21T18:35:39.685+05:30  INFO 19408 --- [Student_Management_System] [nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-21T18:35:39.688+05:30  INFO 19408 --- [Student_Management_System] [nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-02-21T18:35:39.692+05:30  INFO 19408 --- [Student_Management_System] [nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2026-02-21T18:44:04.192+05:30  WARN 19408 --- [Student_Management_System] [nio-8080-exec-3] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [118] milliseconds.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  16:21 min
+[INFO] Finished at: 2026-02-21T18:48:23+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:3.5.10:run (default-cli) on project Student_Management_System: Process terminated with exit code: 1 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
